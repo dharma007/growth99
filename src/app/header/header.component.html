@@ -1,0 +1,21 @@
+<!-- menbar components -->
+
+<p-menubar>
+    <ng-template pTemplate="start">
+        <img src="../../assets/growth99-logo.svg" height="40" class="mr-2" />
+    </ng-template>
+    <ng-template pTemplate="end">
+        <p-button styleClass="p-button-rounded p-button-text" (click)="onClickNotification()">
+            <i class="pi pi-bell text-3xl" pBadge severity="info" value="2"></i></p-button>
+    </ng-template>
+</p-menubar>
+
+
+<!-- Notification panel components -->
+
+<p-sidebar [(visible)]="notificationPanel" position="right">
+    <ng-template pTemplate="header"><i class="pi pi-bell mx-2"></i>Notification panel</ng-template>
+    <ng-template pTemplate="content">
+        <app-notifications-center></app-notifications-center>
+    </ng-template>
+</p-sidebar>

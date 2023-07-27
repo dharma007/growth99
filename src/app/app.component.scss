@@ -1,0 +1,15 @@
+.banner {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner-img {
+        height: 500px;
+        width: 50%;
+        background-image: url("../assets/undraw_windows_re_uo4w.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60%;
+    }
+}

@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <ng-container *ngFor="let item of messageList">
+        <li class="list-group-item" [ngClass]="{unreadColor: item.unRead}" (click)="onViewMessage(item)">
+            <span class="circle-icon" *ngIf="item.unRead"></span>
+            {{item.message}}
+        </li>
+    </ng-container>
+</ul>

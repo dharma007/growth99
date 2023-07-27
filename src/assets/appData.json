@@ -1,0 +1,54 @@
+{
+    "notification": [
+        {
+            "id": 1,
+            "message": "Hi James. The DEMO you requested is scheduled today for 2PM. Please reply “YES” if you can join and “NO” if you need to reschedule.",
+            "unRead": true
+        },
+        {
+            "id": 2,
+            "message": "Hi Shelby, we sent over the program details you requested. Look out for an email from john@companyname.",
+            "unRead": true
+        },
+        {
+            "id": 3,
+            "message": "Hey Kate, save $50 when you spend $150 or more. Today only! Click here to see our new products (link)",
+            "unRead": true
+        },
+        {
+            "id": 4,
+            "message": "As you read this, your customers are looking at their phones just waiting for you to send them a text message.",
+            "unRead": true
+        },
+        {
+            "id": 5,
+            "message": "That last part might not be true, but sending your customers an SMS message is the easiest way to engage with your current and potential customers.",
+            "unRead": true
+        },
+        {
+            "id": 6,
+            "message": "Hey Erin, thanks for shopping at Whitewater Clothes! We have tons of exclusive upcoming deals for our text subscribers. Stay tuned. Reply STOP to unsubscribe.",
+            "unRead": false
+        },
+        {
+            "id": 7,
+            "message": "Hello Elize, thanks for subscribing to Wholesale Wines. We’re excited to start sharing our best wine deals with you. Reply to this msg with R for red wine, W for white wine, or P for rose wine. Reply ‘stop’ to opt-out.",
+            "unRead": false
+        },
+        {
+            "id": 8,
+            "message": "Welcome to Sunlight Candles! We’re happy you’re here. Give us a follow on Instagram @sunlightcandles or visit our website: (link) Reply ‘stop’ to stop.",
+            "unRead": false
+        },
+        {
+            "id": 9,
+            "message": "They need to interest and engage your subscribers immediately. There’s no time to beat around the bush — you have a few seconds to catch their attention before they move on. ",
+            "unRead": false
+        },
+        {
+            "id": 10,
+            "message": "Avoid lengthy, detailed messages that don’t directly address a customer’s wants and needs. Only use text messaging here to show your recipients you have something that benefits them. Everything else is unnecessary information.",
+            "unRead": false
+        }
+    ]
+}
